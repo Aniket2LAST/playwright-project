@@ -1,0 +1,165 @@
+# Page snapshot
+
+```yaml
+- text: Vendor
+- button
+- list:
+  - button "Dashboard":
+    - link "Dashboard":
+      - /url: /vendor/dashboard
+  - button "Requirements":
+    - link "Requirements":
+      - /url: /vendor/requirements
+  - button "Applicants":
+    - link "Applicants":
+      - /url: /vendor/candidate
+  - button "Bench":
+    - link "Bench":
+      - /url: /vendor/bench
+  - button "Partners"
+  - button "Messages":
+    - link "Messages":
+      - /url: /vendor/messages
+- separator
+- text: SETTINGS
+- list:
+  - button "Organization Profile":
+    - link "Organization Profile":
+      - /url: /vendor/profile
+  - button "Subscriptions":
+    - link "Subscriptions":
+      - /url: /vendor/subscriptions
+  - button "Members":
+    - link "Members":
+      - /url: /vendor/members
+- list:
+  - button "Yash Paliwal anshpaliwal.900@gmail.com":
+    - link "Yash Paliwal anshpaliwal.900@gmail.com":
+      - /url: /vendor/account
+      - paragraph: Yash Paliwal
+      - paragraph: anshpaliwal.900@gmail.com
+  - separator
+  - text: Logout
+- button "Check matching candidate" [disabled]:
+  - img
+  - text: Check matching candidate
+- text: Show hot
+- checkbox "controlled"
+- textbox "Search"
+- button "Status"
+- button "Resources"
+- button "filter"
+- table:
+  - rowgroup:
+    - row "Role Status Date Posted Positions (Placed) Applicants":
+      - cell:
+        - checkbox
+      - cell "Role"
+      - cell "Status"
+      - cell "Date Posted"
+      - cell "Positions (Placed)"
+      - cell "Applicants"
+  - rowgroup:
+    - row "Manual Test Engineer 3 Matching Candidates wipro Hybrid Full-time, Permanent Open 05-06-2025 1 (0) -":
+      - cell:
+        - checkbox
+      - cell "Manual Test Engineer 3 Matching Candidates wipro Hybrid Full-time, Permanent"
+      - cell "Open":
+        - paragraph: Open
+      - cell "05-06-2025"
+      - cell "1 (0)"
+      - cell "-"
+    - row "Cybersecurity Engineer 3 Matching Candidates wipro Remote Full-time, Permanent Open 13-06-2025 1 (0) -":
+      - cell:
+        - checkbox
+      - cell "Cybersecurity Engineer 3 Matching Candidates wipro Remote Full-time, Permanent"
+      - cell "Open":
+        - paragraph: Open
+      - cell "13-06-2025"
+      - cell "1 (0)"
+      - cell "-"
+    - row "Front-end Developer Hot 3 Matching Candidates khan Onsite Full-time, Permanent Open 16-06-2025 1 (0) -":
+      - cell:
+        - checkbox
+      - cell "Front-end Developer Hot 3 Matching Candidates khan Onsite Full-time, Permanent"
+      - cell "Open":
+        - paragraph: Open
+      - cell "16-06-2025"
+      - cell "1 (0)"
+      - cell "-"
+    - row "Backend Developer 3 Matching Candidates khan Onsite Full-time, Permanent Open 16-06-2025 1 (0) -":
+      - cell:
+        - checkbox
+      - cell "Backend Developer 3 Matching Candidates khan Onsite Full-time, Permanent"
+      - cell "Open":
+        - paragraph: Open
+      - cell "16-06-2025"
+      - cell "1 (0)"
+      - cell "-"
+    - row "Oracle Consultant 0 Matching Candidates wipro Hybrid Full-time, Permanent Open 16-06-2025 1 (0) -":
+      - cell:
+        - checkbox
+      - cell "Oracle Consultant 0 Matching Candidates wipro Hybrid Full-time, Permanent"
+      - cell "Open":
+        - paragraph: Open
+      - cell "16-06-2025"
+      - cell "1 (0)"
+      - cell "-"
+    - row "Oracle Consultant 0 Matching Candidates wipro Hybrid Full-time, Permanent Open 16-06-2025 1 (0) -":
+      - cell:
+        - checkbox
+      - cell "Oracle Consultant 0 Matching Candidates wipro Hybrid Full-time, Permanent"
+      - cell "Open":
+        - paragraph: Open
+      - cell "16-06-2025"
+      - cell "1 (0)"
+      - cell "-"
+    - row "Oracle Consultant 0 Matching Candidates wipro Hybrid Full-time, Permanent Open 16-06-2025 1 (0) -":
+      - cell:
+        - checkbox
+      - cell "Oracle Consultant 0 Matching Candidates wipro Hybrid Full-time, Permanent"
+      - cell "Open":
+        - paragraph: Open
+      - cell "16-06-2025"
+      - cell "1 (0)"
+      - cell "-"
+    - row "Front End Developer 3 Matching Candidates wipro Hybrid Full-time, Permanent Open 04-06-2025 1 (0) -":
+      - cell:
+        - checkbox
+      - cell "Front End Developer 3 Matching Candidates wipro Hybrid Full-time, Permanent"
+      - cell "Open":
+        - paragraph: Open
+      - cell "04-06-2025"
+      - cell "1 (0)"
+      - cell "-"
+    - row "Not specified 3 Matching Candidates wipro Hybrid Full-time, Permanent Open 05-06-2025 1 (0) -":
+      - cell:
+        - checkbox
+      - cell "Not specified 3 Matching Candidates wipro Hybrid Full-time, Permanent"
+      - cell "Open":
+        - paragraph: Open
+      - cell "05-06-2025"
+      - cell "1 (0)"
+      - cell "-"
+    - row "QA Engineer 3 Matching Candidates wipro Hybrid Full-time, Permanent Open 05-06-2025 1 (0) -":
+      - cell:
+        - checkbox
+      - cell "QA Engineer 3 Matching Candidates wipro Hybrid Full-time, Permanent"
+      - cell "Open":
+        - paragraph: Open
+      - cell "05-06-2025"
+      - cell "1 (0)"
+      - cell "-"
+    - row "Software Engineer 3 Matching Candidates wipro Hybrid Full-time, Permanent Open 05-06-2025 1 (0) -":
+      - cell:
+        - checkbox
+      - cell "Software Engineer 3 Matching Candidates wipro Hybrid Full-time, Permanent"
+      - cell "Open":
+        - paragraph: Open
+      - cell "05-06-2025"
+      - cell "1 (0)"
+      - cell "-"
+- paragraph: Showing 1 to 11 of 11 results
+- button [disabled]
+- button [disabled]
+```

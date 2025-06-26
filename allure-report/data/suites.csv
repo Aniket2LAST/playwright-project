@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","10383","test","chromium","Mon Jun 23 12:04:24 IST 2025","passed","Mon Jun 23 12:04:34 IST 2025","","Vendor Folder\Requirementsearch.spec.js","",""
+"","15348","test","chromium","Mon Jun 16 18:44:48 IST 2025","passed","Mon Jun 16 18:45:04 IST 2025","","PartnerFolder\Postrequirementfunction.spec.js","",""
+"","845","test","webkit","Mon Jun 16 12:32:53 IST 2025","failed","Mon Jun 16 12:32:54 IST 2025","","LoginFolder\loginTest.spec.js","",""
+"","1291","test","firefox","Mon Jun 16 12:32:53 IST 2025","failed","Mon Jun 16 12:32:55 IST 2025","","LoginFolder\loginTest.spec.js","",""
+"","5280","test","chromium","Mon Jun 23 12:04:24 IST 2025","passed","Mon Jun 23 12:04:29 IST 2025","","LoginFolder\loginTest.spec.js","",""
+"","12026","test","chromium","Tue Jun 17 16:00:50 IST 2025","passed","Tue Jun 17 16:01:02 IST 2025","","Vendor Folder\Vendorsearchbar.spec.js","",""

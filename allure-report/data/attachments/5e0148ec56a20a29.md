@@ -1,0 +1,64 @@
+# Page snapshot
+
+```yaml
+- img
+- heading "Post Requirements" [level=2]
+- text: Paste Requirement Basic Information Vendors Title
+- textbox "Title": Wordpress Developer
+- button "Normal":
+  - text: Normal
+  - img
+- button:
+  - img
+- button:
+  - img
+- button:
+  - img
+- button:
+  - img
+- button:
+  - img
+- button:
+  - img
+- button:
+  - img
+- paragraph: "A Wordpress Developer role involves designing and implementing attractive and functional websites for clients. The responsibilities include:"
+- list:
+  - listitem: • Customizing themes and plugins to meet client needs
+  - listitem: • Ensuring high-performance and availability of websites
+  - listitem: • Collaborating with design and content teams
+- paragraph: "The requirements for this role are:"
+- list:
+  - listitem: • Proficiency in PHP, HTML, CSS, and JavaScript
+  - listitem: • Experience with Wordpress themes and plugins
+  - listitem: • Strong problem-solving skills
+- text: Experience
+- textbox "Experience": Not specified
+- text: Budget
+- textbox "Budget": Competitive, based on experience
+- text: Number of Positions
+- textbox "Number of Positions": "1"
+- text: Contract Period
+- textbox "Contract Period": Full-time, Permanent
+- text: "Job Location:"
+- radiogroup:
+  - radio "Onsite"
+  - text: Onsite
+  - radio "Hybrid" [checked]
+  - text: Hybrid
+  - radio "Remote"
+  - text: Remote
+- text: Select Client
+- combobox
+- text: Skills
+- button "PHP"
+- button "HTML"
+- button "CSS"
+- button "JavaScript"
+- combobox "Skills"
+- button "Open"
+- text: Remark for Vendor
+- textbox "Remark for Vendor": None
+- button "Back"
+- button "Next"
+```

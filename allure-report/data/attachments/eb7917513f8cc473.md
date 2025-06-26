@@ -1,0 +1,93 @@
+# Page snapshot
+
+```yaml
+- text: Vendor
+- button
+- list:
+  - button "Dashboard":
+    - link "Dashboard":
+      - /url: /vendor/dashboard
+  - button "Requirements":
+    - link "Requirements":
+      - /url: /vendor/requirements
+  - button "Applicants":
+    - link "Applicants":
+      - /url: /vendor/candidate
+  - button "Bench":
+    - link "Bench":
+      - /url: /vendor/bench
+  - button "Partners"
+  - button "Messages":
+    - link "Messages":
+      - /url: /vendor/messages
+- separator
+- text: SETTINGS
+- list:
+  - button "Organization Profile":
+    - link "Organization Profile":
+      - /url: /vendor/profile
+  - button "Subscriptions":
+    - link "Subscriptions":
+      - /url: /vendor/subscriptions
+  - button "Members":
+    - link "Members":
+      - /url: /vendor/members
+- list:
+  - button "Yash Paliwal anshpaliwal.900@gmail.com":
+    - link "Yash Paliwal anshpaliwal.900@gmail.com":
+      - /url: /vendor/account
+      - paragraph: Yash Paliwal
+      - paragraph: anshpaliwal.900@gmail.com
+  - separator
+  - text: Logout
+- tablist:
+  - tab "Bench" [selected]
+  - tab "Tech Stack"
+- button "Check matching positions" [disabled]:
+  - img
+  - text: Check matching positions
+- textbox "Search Resources"
+- button "Availability"
+- button "filter"
+- button "Add Bench":
+  - img
+  - text: Add Bench
+- table:
+  - rowgroup:
+    - row "Resource name Role Availability":
+      - cell:
+        - checkbox
+      - cell "Resource name"
+      - cell "Role"
+      - cell "Availability"
+  - progressbar:
+    - img
+  - rowgroup:
+    - row "Rohan Sharma 15 Matching positions 3+ years Front-End Developer Immediate":
+      - cell:
+        - checkbox
+      - cell "Rohan Sharma 15 Matching positions 3+ years":
+        - text: Rohan Sharma 15 Matching positions
+        - paragraph: 3+ years
+      - cell "Front-End Developer"
+      - cell "Immediate":
+        - paragraph: Immediate
+    - row "Rahul Verma 15 Matching positions 6 years Cybersecurity Engineer Immediate":
+      - cell:
+        - checkbox
+      - cell "Rahul Verma 15 Matching positions 6 years":
+        - text: Rahul Verma 15 Matching positions
+        - paragraph: 6 years
+      - cell "Cybersecurity Engineer"
+      - cell "Immediate":
+        - paragraph: Immediate
+    - row "Virat Sharma 15 Matching positions 3+ Years Automation Test Engineer Immediate":
+      - cell:
+        - checkbox
+      - cell "Virat Sharma 15 Matching positions 3+ Years":
+        - text: Virat Sharma 15 Matching positions
+        - paragraph: 3+ Years
+      - cell "Automation Test Engineer"
+      - cell "Immediate":
+        - paragraph: Immediate
+```

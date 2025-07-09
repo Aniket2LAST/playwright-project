@@ -1,0 +1,62 @@
+# Page snapshot
+
+```yaml
+- text: Vendor
+- button
+- list:
+  - button "Dashboard":
+    - link "Dashboard":
+      - /url: /vendor/dashboard
+  - button "Requirements":
+    - link "Requirements":
+      - /url: /vendor/requirements
+  - button "Applicants":
+    - link "Applicants":
+      - /url: /vendor/candidate
+  - button "Bench":
+    - link "Bench":
+      - /url: /vendor/bench
+  - button "Partners"
+- separator
+- text: SETTINGS
+- list:
+  - button "Organization Profile":
+    - link "Organization Profile":
+      - /url: /vendor/profile
+  - button "Members":
+    - link "Members":
+      - /url: /vendor/members
+- list:
+  - button "Yash Paliwal anshpaliwal.900@gmail.com":
+    - link "Yash Paliwal anshpaliwal.900@gmail.com":
+      - /url: /vendor/account
+      - paragraph: Yash Paliwal
+      - paragraph: anshpaliwal.900@gmail.com
+  - separator
+  - text: Logout
+- tablist "secondary tabs example":
+  - tab "Personal Information" [selected]
+  - tab "Notifications"
+- img "Preview"
+- text: First Name
+- textbox "First Name": Yash
+- text: Last Name
+- textbox "Last Name": Paliwal
+- text: Email
+- textbox "Email" [disabled]: anshpaliwal.900@gmail.com
+- text: Phone
+- textbox "Phone": "9763527814"
+- text: Gender
+- combobox "Gender Male": Male
+- text: Date of Birth
+- textbox "Date of Birth": 2001-01-01
+- button "Submit"
+- paragraph: Change Password
+- text: Old Password
+- textbox "Old Password"
+- button "search"
+- text: New Password
+- textbox "New Password"
+- button "search"
+- button "Change Password"
+```

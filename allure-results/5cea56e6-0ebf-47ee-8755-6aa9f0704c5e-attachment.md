@@ -1,0 +1,63 @@
+# Page snapshot
+
+```yaml
+- text: Partner
+- button
+- button "Post a requirement"
+- list:
+  - button "Dashboard":
+    - link "Dashboard":
+      - /url: /company/dashboard
+  - button "Requirements":
+    - link "Requirements":
+      - /url: /company/myrequirements
+  - button "Applicants":
+    - link "Applicants":
+      - /url: /company/candidates
+  - button "Clients":
+    - link "Clients":
+      - /url: /company/clients
+  - button "Vendors"
+- separator
+- text: SETTINGS
+- list:
+  - button "Organization Profile":
+    - link "Organization Profile":
+      - /url: /company/profile
+  - button "Members":
+    - link "Members":
+      - /url: /company/members
+- list:
+  - button "Ram ku ram@yopmail.com":
+    - link "Ram ku ram@yopmail.com":
+      - /url: /company/account
+      - paragraph: Ram ku
+      - paragraph: ram@yopmail.com
+  - separator
+  - text: Logout
+- tablist "secondary tabs example":
+  - tab "Personal Information" [selected]
+  - tab "Notifications"
+- paragraph: Upload Profile
+- text: First Name
+- textbox "First Name": Ram
+- text: Last Name
+- textbox "Last Name": ku
+- text: Email
+- textbox "Email" [disabled]: ram@yopmail.com
+- text: Phone
+- textbox "Phone"
+- text: Gender
+- combobox "Gender"
+- text: Date of Birth
+- textbox "Date of Birth": 2001-01-01
+- button "Submit"
+- paragraph: Change Password
+- text: Old Password
+- textbox "Old Password"
+- button "search"
+- text: New Password
+- textbox "New Password"
+- button "search"
+- button "Change Password"
+```

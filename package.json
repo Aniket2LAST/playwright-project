@@ -4,16 +4,18 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "npx playwright test",
-    "allure:generate": "allure generate allure-results --clean -o allure-report",
-    "allure:open": "allure open allure-report"
-  },
+  "test": "playwright test",
+  "allure:generate": "allure generate allure-results --clean -o allure-report",
+  "allure:open": "allure open allure-report",
+  "allure:report": "npm run allure:generate && npm run allure:open"
+},
+
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@playwright/test": "^1.53.0",
+    "@playwright/test": "^1.53.2",
     "@types/node": "^24.0.1",
     "allure-playwright": "^3.2.2"
   }

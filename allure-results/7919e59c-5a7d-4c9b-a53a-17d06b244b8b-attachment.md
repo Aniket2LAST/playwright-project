@@ -1,0 +1,94 @@
+# Page snapshot
+
+```yaml
+- dialog "Applicant Status":
+  - heading "Applicant Status" [level=2]
+  - paragraph:
+    - radiogroup:
+      - radio "New Application"
+      - text: New Application
+      - radio "Under Review"
+      - text: Under Review
+      - radio "Shortlisted"
+      - text: Shortlisted
+      - radio "Technical Assessment"
+      - text: Technical Assessment
+      - radio "Interview Round 1"
+      - text: Interview Round 1
+      - radio "Interview Round 2"
+      - text: Interview Round 2
+      - radio "Interview Round 3"
+      - text: Interview Round 3
+      - radio "Selected"
+      - text: Selected
+      - radio "Onboarded" [checked]
+      - text: Onboarded
+      - radio "Contract Closed"
+      - text: Contract Closed
+      - radio "Rejected"
+      - text: Rejected
+      - radio "On Hold"
+      - text: On Hold
+      - radio "Withdrawn"
+      - text: Withdrawn
+    - text: Under Review
+    - paragraph
+    - text: Under Review
+    - paragraph
+    - text: Under Review
+    - paragraph
+    - text: Under Review
+    - paragraph
+    - text: Under Review
+    - paragraph
+    - text: Under Review
+    - paragraph
+    - text: Under Review
+    - paragraph
+    - text: New Application
+    - paragraph
+    - text: New Application
+    - paragraph
+    - text: New Application
+    - paragraph
+    - text: Under Review
+    - paragraph
+    - text: Shortlisted
+    - paragraph
+    - text: Under Review
+    - paragraph
+    - text: Under Review
+    - paragraph
+    - text: Under Review
+    - paragraph
+    - text: Under Review
+    - paragraph
+    - text: Under Review
+    - paragraph
+    - text: Under Review
+    - paragraph
+    - text: Under Review
+    - paragraph
+    - text: New Application
+    - paragraph
+    - text: New Application
+    - paragraph
+    - text: New Application
+    - paragraph
+    - text: New Application
+    - paragraph
+    - text: Under Review
+    - paragraph
+    - text: Under Review
+    - paragraph
+    - text: Selected
+    - paragraph: you are selected congo
+    - text: Onboarded
+    - paragraph: you are good
+    - text: Onboarded
+    - paragraph: you are good
+    - text: Comments
+    - textbox "Comments"
+  - button "Cancel"
+  - button "Update"
+```

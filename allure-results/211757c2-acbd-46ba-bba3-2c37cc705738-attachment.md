@@ -1,0 +1,66 @@
+# Page snapshot
+
+```yaml
+- text: Partner
+- button
+- button "Post a requirement"
+- list:
+  - button "Dashboard":
+    - link "Dashboard":
+      - /url: /company/dashboard
+  - button "Requirements":
+    - link "Requirements":
+      - /url: /company/myrequirements
+  - button "Applicants":
+    - link "Applicants":
+      - /url: /company/candidates
+  - button "Clients":
+    - link "Clients":
+      - /url: /company/clients
+  - button "Vendors"
+- separator
+- text: SETTINGS
+- list:
+  - button "Organization Profile":
+    - link "Organization Profile":
+      - /url: /company/profile
+  - button "Members":
+    - link "Members":
+      - /url: /company/members
+- list:
+  - button "Ram kumar ram@yopmail.com":
+    - link "Ram kumar ram@yopmail.com":
+      - /url: /company/account
+      - paragraph: Ram kumar
+      - paragraph: ram@yopmail.com
+  - separator
+  - text: Logout
+- textbox "Search"
+- button "Client"
+- button "Status"
+- button "filter"
+- table:
+  - rowgroup:
+    - row "Candidate Name Role Client Status Application Date":
+      - cell "Candidate Name"
+      - cell "Role"
+      - cell "Client"
+      - cell "Status"
+      - cell "Application Date"
+  - rowgroup:
+    - row "Rahul Verma Fleeksam 27% CV Front-End Developer Self Onboarded 18-06-2025":
+      - cell "Rahul Verma Fleeksam 27% CV":
+        - text: Rahul Verma
+        - img
+        - text: Fleeksam
+        - img
+        - text: 27% CV
+      - cell "Front-End Developer"
+      - cell "Self"
+      - cell "Onboarded":
+        - paragraph: Onboarded
+      - cell "18-06-2025"
+- paragraph: Showing 1 to 1 of 1 results
+- button [disabled]
+- button [disabled]
+```

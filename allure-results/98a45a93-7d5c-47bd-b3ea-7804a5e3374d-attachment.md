@@ -1,0 +1,61 @@
+# Page snapshot
+
+```yaml
+- img "Org Icon"
+- text: Partner
+- button
+- button "Post a requirement"
+- list:
+  - button "Dashboard":
+    - link "Dashboard":
+      - /url: /company/dashboard
+  - button "Requirements":
+    - link "Requirements":
+      - /url: /company/myrequirements
+  - button "Applicants":
+    - link "Applicants":
+      - /url: /company/candidates
+  - button "Clients":
+    - link "Clients":
+      - /url: /company/clients
+  - button "Vendors"
+- separator
+- text: SETTINGS
+- list:
+  - button "Organization Profile":
+    - link "Organization Profile":
+      - /url: /company/profile
+  - button "Members":
+    - link "Members":
+      - /url: /company/members
+- list:
+  - button "Profile Photo Aniket ko aniket@fleekitsolutions.com":
+    - link "Profile Photo Aniket ko aniket@fleekitsolutions.com":
+      - /url: /company/account
+      - img "Profile Photo"
+      - paragraph: Aniket ko
+      - paragraph: aniket@fleekitsolutions.com
+  - separator
+  - text: Logout
+- heading "24" [level=5]
+- paragraph: Open Positions
+- heading "0" [level=5]
+- paragraph: Hot Requirements
+- heading "0" [level=5]
+- paragraph: Interview Scheduled
+- heading "0" [level=5]
+- paragraph: Candidates to review
+- heading "9" [level=5]
+- paragraph: No Applicants
+- img: Tue Wed Thu Fri Days of the Week 0 5 10 15 Positions Placements
+- text: Requirements
+- paragraph: No data available
+- paragraph: Top Vendors
+- paragraph: Placements
+- paragraph: testingVendor
+- paragraph: "4"
+- button "View all"
+- paragraph: Top Clients
+- paragraph: You haven't added any clients. Start by adding your top clients to showcase your portfolio.
+- button "Create new clients"
+```

@@ -1,13 +1,14 @@
 import { test, expect } from '@playwright/test';
-import { LoginPage } from "../../page/LoginPage"
+import { LoginPage } from "../../page/LoginPage";
 import { Applicants } from "../../page/ApplicantStatusUpdate";
 
-
-test.only('ApplicantStatusTest', async ({ page }) => {
+test.describe('Sanity Suite', () => {
+  test.only('ApplicantStatusTest[sanity]', async ({ page }) => {
     const login = new LoginPage(page);
-    await login.gotoLoginPage();
-    await login.Login('ram@yopmail.com', 'Ram1234@');
-    await page.waitForTimeout(3000);
+    await login.goto();
+    await login.login('aniket@fleekitsolutions.com', 'Test@12345');
+
     const app = new Applicants(page);
     await app.verified();
+  });
 });

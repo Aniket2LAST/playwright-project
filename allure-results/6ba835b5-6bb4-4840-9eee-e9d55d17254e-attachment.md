@@ -1,0 +1,64 @@
+# Page snapshot
+
+```yaml
+- text: Partner
+- button
+- button "Post a requirement"
+- list:
+  - button "Dashboard":
+    - link "Dashboard":
+      - /url: /company/dashboard
+  - button "Requirements":
+    - link "Requirements":
+      - /url: /company/myrequirements
+  - button "Applicants":
+    - link "Applicants":
+      - /url: /company/candidates
+  - button "Clients":
+    - link "Clients":
+      - /url: /company/clients
+  - button "Vendors"
+- separator
+- text: SETTINGS
+- list:
+  - button "Organization Profile":
+    - link "Organization Profile":
+      - /url: /company/profile
+  - button "Members":
+    - link "Members":
+      - /url: /company/members
+- list:
+  - button "Ram kumar ram@yopmail.com":
+    - link "Ram kumar ram@yopmail.com":
+      - /url: /company/account
+      - paragraph: Ram kumar
+      - paragraph: ram@yopmail.com
+  - separator
+  - text: Logout
+- heading "5" [level=5]
+- paragraph: Open Positions
+- heading "1" [level=5]
+- paragraph: Hot Requirements
+- heading "0" [level=5]
+- paragraph: Interview Scheduled
+- heading "1" [level=5]
+- paragraph: Candidates to review
+- heading "4" [level=5]
+- paragraph: No Applicants
+- img: Wed Days of the Week 1 2 3 4 5 Positions Placements
+- text: Requirements
+- paragraph: No data available
+- paragraph: Top Vendors
+- paragraph: Placements
+- paragraph: Fleeksam
+- paragraph: "1"
+- button "View all"
+- paragraph: Top Clients
+- paragraph: You haven't added any clients. Start by adding your top clients to showcase your portfolio.
+- button "Create new clients"
+- paragraph: Requirements need attention
+- paragraph: Software Development Engineer in Test (SDET)
+- paragraph
+- text: "Hybrid Positions: 1 18-06-2025"
+- button
+```

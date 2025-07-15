@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        nodejs 'node18'  // Must match the name you added earlier
+        nodejs 'Nodejs'  // Must match the name you added earlier
     }
 
     stages {

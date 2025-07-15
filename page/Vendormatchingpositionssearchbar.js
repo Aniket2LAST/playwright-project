@@ -1,4 +1,4 @@
-import { expect } from '@playwright/test';
+ import { expect } from '@playwright/test';
 
 export class Vendor {
     constructor(page) {
@@ -25,3 +25,5 @@ export class Vendor {
         await this.page.locator(this.icon).click();
     }
 }
+
+//module.exports = { class  name };

@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 import { LoginPage } from "../../page/LoginPage";
 import PasswordUpdates from "../../page/PasswordUpdates"; // ✅ FIXED
 
-test.only('UpdatePasswordTest', async ({ page }) => {
+test('UpdatePasswordTest', async ({ page }) => {
     const login = new LoginPage(page);
     await login.gotoLoginPage();
     await login.Login('aniket@fleekitsolutions.com', 'Test@12345');

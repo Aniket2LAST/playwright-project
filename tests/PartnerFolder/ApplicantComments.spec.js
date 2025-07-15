@@ -3,7 +3,7 @@ import { LoginPage } from "../../page/LoginPage"
 import { ApplicantsComment } from "../../page/ApplicantsComment";
 
 test.describe('Sanity Suite',() => {
-    test.only('ApplicantCommentsTest[sanity]', async ({ page }) => {
+    test('ApplicantCommentsTest[sanity]', async ({ page }) => {
        const login = new LoginPage(page);
        await login.goto();
        await login.login('aniket@fleekitsolutions.com', 'Test@12345');
